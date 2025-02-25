@@ -13,17 +13,19 @@
 
 
 **2. Describe the process of setting up a new repository on GitHub. What are the key steps, and what are some of the important decisions you must make during this process?**
-Process of Setting Up a New Repository on GitHub
-    > Log in to GitHub – Sign in to your GitHub account.
-    > Create a New Repository – Click the "+" icon in the top-right corner and select "New repository."
-    Repository Details – Provide a repository name and an optional description.
-    Choose Visibility – Select Public (visible to everyone) or Private (restricted access).
-    Initialize the Repository (Optional) – You can:
-        Add a README file for project details.
-        Include a .gitignore file to exclude unnecessary files.
-        Select a license to define usage terms.
-    Create the Repository – Click "Create repository."
-    Clone the Repository – Copy the repository URL and run git clone <URL> to work locally.
+**Process of Setting Up a New Repository on GitHub**
+
+- Log in to GitHub: Sign in to your GitHub account.
+- Create a New Repository: Click the "+" icon in the top-right corner and select "New repository."
+- Repository Details: Provide a repository name and an optional description.
+- Choose Visibility: Select Public (visible to everyone) or Private (restricted access).
+- Initialize the Repository (Optional) – You can:
+      Add a README file for project details.
+      Include a .gitignore file to exclude unnecessary files.
+      Select a license to define usage terms.
+  
+- Create the Repository – Click "Create repository."
+- Clone the Repository – Copy the repository URL and run git clone <URL> to work locally.
 
 _**Important Decisions**_
 - Visibility: Whether the repository should be public or private.
@@ -35,6 +37,7 @@ _**Important Decisions**_
 A README file serves as the first point of reference for anyone interacting with a repository. It provides essential information about the project, improving clarity, usability, and collaboration.
 
 _What to include in a Well-Written README:_
+
     Project Title and Description – A brief overview of what the project does.
     Installation Instructions – Steps to set up and run the project.
     Usage Guidelines – How to use the project, including examples.
@@ -43,6 +46,7 @@ _What to include in a Well-Written README:_
     Contact Information – How to reach the project maintainers.
 
 _How It Contributes to Collaboration:_
+
     Helps new developers understand the project quickly.
     Ensures consistent onboarding for contributors.
     Reduces confusion by providing clear documentation.
