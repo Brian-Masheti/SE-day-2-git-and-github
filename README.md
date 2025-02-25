@@ -136,6 +136,7 @@ Typical Workflow: Creating, Using, and Merging Branches
 1. Creating a New Branch
 To create and switch to a new branch, use:
     git checkout -b feature-branch
+   
 or
     git branch feature-branch
     git checkout feature-branch
@@ -144,21 +145,26 @@ This creates a branch called feature-branch and switches to it.
 
 2. Working on the Branch
 Make changes to files, stage them, and commit:
-    git add .
-    git commit -m "Added new feature"
 
-3. Pushing the Branch to GitHub
+   git add .
+   git commit -m "Added new feature"
+
+4. Pushing the Branch to GitHub
 Push the branch to the remote repository so others can collaborate:
-    git push -u origin feature-branch
 
-4. Merging the Branch into the Main Branch
+       git push -u origin feature-branch
+
+6. Merging the Branch into the Main Branch
 Once the feature is complete and tested, switch to the main branch:
-    git checkout main
+
+       git checkout main
 
 Then, merge the feature branch:
+    
     git merge feature-branch
 
 Resolve any conflicts if necessary, then push the updated main branch to GitHub:
+    
     git push origin main
 
 5. Deleting the Branch (Optional)
