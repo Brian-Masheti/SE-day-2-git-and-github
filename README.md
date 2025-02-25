@@ -6,10 +6,10 @@
 
 **_How Version Control Maintains Project Integrity:_**
 
-- History Tracking: Records all modifications, making it easy to review and revert changes.
-- Collaboration: Multiple developers can work on different features without conflicts.
-- Code Stability – Branching and merging allow testing before integrating updates into the main project.
-- Security & Backup – Ensures a reliable backup of code, preventing accidental loss or corruption.
+- **History Tracking:** Records all modifications, making it easy to review and revert changes.
+- **Collaboration:** Multiple developers can work on different features without conflicts.
+- **Code Stability:** Branching and merging allow testing before integrating updates into the main project.
+- **Security & Backup:** Ensures a reliable backup of code, preventing accidental loss or corruption.
 
 
 **2. Describe the process of setting up a new repository on GitHub. What are the key steps, and what are some of the important decisions you must make during this process?**
@@ -28,10 +28,10 @@
 - Clone the Repository – Copy the repository URL and run git clone <URL> to work locally.
 
 _**Important Decisions**_
-- Visibility: Whether the repository should be public or private.
-- README File: Helps explain the project’s purpose.
-- License: Determines how others can use your code.
-- .gitignore File: Prevents tracking of unnecessary files.
+- **Visibility:** Whether the repository should be public or private.
+- **README File:** Helps explain the project’s purpose.
+- **License:** Determines how others can use your code.
+- **.gitignore File:** Prevents tracking of unnecessary files.
 
 **3. Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?**
 A README file serves as the first point of reference for anyone interacting with a repository. It provides essential information about the project, improving clarity, usability, and collaboration.
