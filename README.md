@@ -37,18 +37,18 @@ _**Important Decisions**_
 A README file serves as the first point of reference for anyone interacting with a repository. It provides essential information about the project, improving clarity, usability, and collaboration.
 
 _What to include in a Well-Written README:_
-    Project Title and Description – A brief overview of what the project does.
-    Installation Instructions – Steps to set up and run the project.
-    Usage Guidelines – How to use the project, including examples.
-    Contributing Guidelines – Instructions for those who want to contribute.
-    License – Specifies how others can use the code.
-    Contact Information – How to reach the project maintainers.
+- Project Title and Description – A brief overview of what the project does.
+- Installation Instructions – Steps to set up and run the project.
+- Usage Guidelines – How to use the project, including examples.
+- Contributing Guidelines – Instructions for those who want to contribute.
+- License – Specifies how others can use the code.
+- Contact Information – How to reach the project maintainers.
 
 _How It Contributes to Collaboration:_
-    Helps new developers understand the project quickly.
-    Ensures consistent onboarding for contributors.
-    Reduces confusion by providing clear documentation.
-    Encourages open-source contributions by defining contribution guidelines.
+- Helps new developers understand the project quickly.
+- Ensures consistent onboarding for contributors.
+- Reduces confusion by providing clear documentation.
+- Encourages open-source contributions by defining contribution guidelines.
 
 **4. Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?**
 
