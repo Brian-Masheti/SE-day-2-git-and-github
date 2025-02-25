@@ -19,9 +19,11 @@ Process of Setting Up a New Repository on GitHub
     Repository Details – Provide a repository name and an optional description.
     Choose Visibility – Select Public (visible to everyone) or Private (restricted access).
     Initialize the Repository (Optional) – You can:
+        
         Add a README file for project details.
         Include a .gitignore file to exclude unnecessary files.
         Select a license to define usage terms.
+    
     Create the Repository – Click "Create repository."
     Clone the Repository – Copy the repository URL and run git clone <URL> to work locally.
 
@@ -85,34 +87,42 @@ Steps to Make Your First Commit on GitHub
 
 1. Initialize a Git Repository (If Not Already Done)
 If you're starting a new project, initialize Git in your local directory:
-    git init _# This command creates a hidden .git folder that tracks changes._
 
-2. Add Files to the Repository
+       git init _# This command creates a hidden .git folder that tracks changes._
+
+3. Add Files to the Repository
 If you've already created a new repository on GitHub, clone it to your local machine:
-    git clone <repository_url>
+
+       git clone <repository_url>
 
  Move into the repository folder:
- cd <repository_name>
+        
+    cd <repository_name>
 
 If you're working with new files, add them to the repository:
+
     git add .
 
 3. Create Your First Commit
 Now, commit the changes with a descriptive message:
-    git commit -m "Initial commit: Added project files"    _# The -m flag specifies the commit message. This message should clearly describe the changes made._
 
-4. Link Your Local Repository to GitHub
+        git commit -m "Initial commit: Added project files"    _# The -m flag specifies the commit message. This message should clearly describe the changes made._
+
+5. Link Your Local Repository to GitHub
 If you haven't already linked your repository, set the remote origin (replace <repository_url> with your actual GitHub repo link):
-    git remote add origin <repository_url>
+
+        git remote add origin <repository_url>
 
 Verify the remote repository:
+    
     git remote -v
 
 5. Push Your Commit to GitHub
 Send your committed changes to GitHub:
-    git push -u origin main   _ # If your default branch is master, use master instead of main. This uploads your local changes to GitHub._
-**
-Why commits are important**
+
+       git push -u origin main   _ # If your default branch is master, use master instead of main. This uploads your local changes to GitHub._
+
+**Why commits are important**
 - Track Changes: Every commit provides a history of modifications, making it easy to review past changes.
 - Version Control: Developers can revert to previous versions if an issue arises.
 - Collaboration: Multiple contributors can work on a project without overwriting each other’s work.
@@ -135,19 +145,20 @@ For example, the programmers might be working on several branches simultaneously
 Typical Workflow: Creating, Using, and Merging Branches
 1. Creating a New Branch
 To create and switch to a new branch, use:
-    git checkout -b feature-branch
-   
-or
-    git branch feature-branch
-    git checkout feature-branch
+
+       git checkout -b feature-branch
+   or
+
+        git branch feature-branch
+        git checkout feature-branch
 
 This creates a branch called feature-branch and switches to it.
 
 2. Working on the Branch
 Make changes to files, stage them, and commit:
 
-   git add .
-   git commit -m "Added new feature"
+       git add .
+       git commit -m "Added new feature"
 
 4. Pushing the Branch to GitHub
 Push the branch to the remote repository so others can collaborate:
@@ -169,9 +180,11 @@ Resolve any conflicts if necessary, then push the updated main branch to GitHub:
 
 5. Deleting the Branch (Optional)
 After merging, delete the branch if it's no longer needed:
-    git branch -d feature-branch
+
+       git branch -d feature-branch
 
 To delete it from the remote repository:
+    
     git push origin --delete feature-branch
 
 To conclude, branching is a powerful feature in Git that enhances collaboration, maintains project stability, and allows developers to work on multiple features simultaneously. By following a structured branching workflow, teams can efficiently develop, test, and integrate new features into a project without disrupting the main codebase. 
@@ -192,13 +205,16 @@ How Pull Requests Facilitate Code Review and Collaboration
 Steps to Create and Merge a Pull Request
 1. Create a New Branch and Make Changes
 - Before opening a PR, create a feature branch and make changes:
-    git checkout -b feature-branch
+
+      git checkout -b feature-branch
 - Make the necessary edits, then stage and commit your changes:
-    git add .
-    git commit -m "Added new feature"
+
+      git add .
+      git commit -m "Added new feature"
 
 - Push the branch to GitHub:
-    git push origin feature-branch
+
+      git push origin feature-branch
 
 2. Open a Pull Request on GitHub
     - Go to your repository on GitHub.
@@ -212,9 +228,10 @@ Steps to Create and Merge a Pull Request
     - Team members review the changes and provide feedback.
     - Reviewers can suggest modifications, and the author can update the branch if needed.
     - If required, push additional commits to the same branch:
-        git add .
-        git commit -m "Implemented feedback"
-        git push origin feature-branch
+
+          git add .
+          git commit -m "Implemented feedback"
+          git push origin feature-branch
 
 4. Merge the Pull Request
 
@@ -224,6 +241,7 @@ Once approved:
     After merging, delete the branch if it's no longer needed.
 
 Alternatively, merge via Git:
+    
     git checkout main
     git merge feature-branch
     git push origin main
