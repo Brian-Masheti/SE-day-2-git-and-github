@@ -37,7 +37,6 @@ _**Important Decisions**_
 A README file serves as the first point of reference for anyone interacting with a repository. It provides essential information about the project, improving clarity, usability, and collaboration.
 
 _What to include in a Well-Written README:_
-
     Project Title and Description – A brief overview of what the project does.
     Installation Instructions – Steps to set up and run the project.
     Usage Guidelines – How to use the project, including examples.
@@ -46,7 +45,6 @@ _What to include in a Well-Written README:_
     Contact Information – How to reach the project maintainers.
 
 _How It Contributes to Collaboration:_
-
     Helps new developers understand the project quickly.
     Ensures consistent onboarding for contributors.
     Reduces confusion by providing clear documentation.
