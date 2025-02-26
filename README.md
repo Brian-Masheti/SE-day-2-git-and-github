@@ -196,7 +196,8 @@ _The Role of Pull Requests in GitHub Workflow_
 
 A pull request (PR) is a mechanism in GitHub that facilitates collaboration by allowing developers to propose, review, and discuss changes before merging them into the main codebase. Pull requests are essential in team projects as they enable code review, collaboration, and quality assurance before integrating new features or fixes.
 
-How Pull Requests Facilitate Code Review and Collaboration
+**How Pull Requests Facilitate Code Review and Collaboration**
+
 * Code Quality Assurance – Team members can review the code for errors, inefficiencies, or security vulnerabilities before merging.
 * Team Collaboration – Developers can discuss changes, suggest improvements, and provide feedback using comments.
 * Version Control Safety – PRs ensure that changes are tested before merging into the main branch, reducing the risk of breaking the project.
@@ -271,7 +272,8 @@ Forking a repository on GitHub creates a personal copy of someone else’s repos
 | **Creating a Personal Version of a Repository** | Forking allows users to customize or extend an open-source project while keeping the original functionality intact. |
 | **Working on Projects Without Direct Collaboration Access** | If a developer does not have write per
 
-How to Fork a Repository on GitHub
+**How to Fork a Repository on GitHub**
+
     - Navigate to the repository on GitHub that you want to fork.
     - Click the Fork button in the top-right corner.
     - GitHub creates a copy of the repository in your account.
@@ -280,7 +282,8 @@ How to Fork a Repository on GitHub
         cd forked-repo
     - Make changes, commit them, and push them to your fork.
 
-How to Contribute Back to the Original Repository
+**How to Contribute Back to the Original Repository**
+
     After making changes in your fork, push them to GitHub:
         git add .
         git commit -m "**Implemented new feature**"
