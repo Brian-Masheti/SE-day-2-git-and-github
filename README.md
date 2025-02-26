@@ -274,21 +274,25 @@ Forking a repository on GitHub creates a personal copy of someone else’s repos
 
 **How to Fork a Repository on GitHub**
 
-    - Navigate to the repository on GitHub that you want to fork.
-    - Click the Fork button in the top-right corner.
-    - GitHub creates a copy of the repository in your account.
-    - Clone the forked repository to your local machine:
+- Navigate to the repository on GitHub that you want to fork.
+- Click the Fork button in the top-right corner.
+- GitHub creates a copy of the repository in your account.
+- Clone the forked repository to your local machine:
+        
         git clone https://github.com/your-username/forked-repo.git
         cd forked-repo
-    - Make changes, commit them, and push them to your fork.
+   
+- Make changes, commit them, and push them to your fork.
 
 **How to Contribute Back to the Original Repository**
 
-    After making changes in your fork, push them to GitHub:
+After making changes in your fork, push them to GitHub:
+        
         git add .
         git commit -m "**Implemented new feature**"
         git push origin main
-    Go to your forked repository on GitHub and click New pull request to propose your changes to the original repository.
+    
+Go to your forked repository on GitHub and click New pull request to propose your changes to the original repository.
 
 
 **Conclusion**
